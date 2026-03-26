@@ -1,0 +1,75 @@
+Het Parekh
+Data Scientist & Engineer
+Hamburg, Germany | hetparekh16@gmail.com | +49 15510 527 934 | linkedin.com/in/het-parekh | github.com/hetparekh16
+SUMMARY
+M.Sc. Data Science at TU Hamburg, with a thesis on heterogeneous data fusion for power grid transformation analysis integrating
+5.7M+ renewable energy installations with multi-TB weather datasets to model generation uncertainty across Germany. Brings
+2+ years of hands-on experience building ML-powered systems and data pipelines in production, including forecasting and
+dynamic pricing models at TUI Cruises. Combines strong data science fundamentals (machine learning, probabilistic modelling,
+federated learning) with practical engineering skills in Python, SQL, and MLOps. Comfortable operating in German-language
+professional environments (B2). Runner-up, Smart India Hackathon 2023.
+SKILLS
+ProgrammingPython, SQL, JavaScript
+Data EngineeringNumPy, Pandas, xarray, SciPy, DuckDB, Polars, Parquet, Apache Airflow, dbt, Streamlit,
+FastAPI, Plotly, Matplotlib
+ML / AIscikit-learn, PyTorch, TensorFlow, Keras, LlamaIndex, Hugging Face, CrewAI, Ollama
+MLOps & ToolsAzure ML, MLflow, Docker, Git, CI/CD, Power BI, Pytest, Pydantic, Poetry
+WebReactJS, HTML, CSS, WordPress, Shopify
+DomainRevenue Management, Renewable Energy
+EXPERIENCE
+Working Student – Data Science·TUI Cruises·Hamburg, DEOct 2024 – Present
+Revenue Management System (RMS)
+– Enhanced forecasting and optimisation modules for dynamic pricing, refactoring core pipeline logic to reduce model runtime
+by∼30%.
+– Maintained production-grade Python/SQL pipelines processing millions of booking records daily; built ETL workflows sup-
+porting downstream modules.
+– Contributed to CI/CD pipeline maintenance to streamline deployments and ensure model stability in production.
+– Designed automated unit test suites covering 80%+ of critical pipeline logic, significantly reducing regression bugs.
+– Conducted internal workshops and presented analytical insights to non-technical stakeholders.
+Ship Energy Analytics (SEA)
+– Co-developed predictive models forecasting fuel consumption across transit and port phases, contributing to fuel efficiency
+analysis across the fleet.
+– Supported design and implementation of scalable data pipelines and infrastructure for production readiness.
+– Collaborated with senior data scientists and mentored interns on Python, SQL, and version control.
+Web Developer·Quantum IT Innovation·Delhi, INFeb 2023 – Sep 2023
+– Designed and integrated RESTful APIs with complex data schemas, building experience in structured data exchange and
+backend communication patterns directly applicable to data pipeline engineering.
+– Migrated legacy codebases to component-based React/TypeScript architectures, developing strong software engineering prac-
+tices (modularity, type safety, testing) now applied in ML systems.
+Web Developer·Team Elementals LLP·Gujarat, INMay 2022 – Dec 2022
+– Developed dynamic Single Page Applications (SPAs) using ReactJS, ensuring seamless integration with backend RESTful key
+endpoints.
+– Collaborated cross-functionally to define API contracts and data schemas, ensuring robust error handling and smooth data
+synchronization between front-end and back-end.
+– Optimizedapplicationperformancebyimplementingefficientstatemanagementpatternsandminimizingre-rendersincomplex
+interactive views.
+---PAGE---
+Web Developer·Arkit Global Inc.·Tokyo, JPMay 2021 – Dec 2021
+– Deployed interactive web pages using ReactJS, optimizing user experience and driving a 40% increase in client website
+engagement within the first month.
+– Collaborated seamlessly with backend teams to ensure responsive designs and API integrations, resulting in a 25% decrease
+in website loading times.
+LANGUAGES
+German- Intermediate (B2)·English- Fluent (C1)·Hindi- Fluent·Gujarati- Mother Tongue
+EDUCATION
+M.Sc. Data Science·Technische Universität HamburgSept 2023 – Apr 2026
+Coursework: Machine Learning, Deep Learning, Big Data Analytics, Statistical Learning, Data Engineering
+Thesis: Heterogeneous Data Fusion for Power Grid Transformation Analysis
+– Architected a scalable data pipeline (Python, DuckDB, Polars) integrating 5.7M+ renewable energy installations (MaStR)
+with multi-TB historical weather datasets.
+– Engineered high-performance GRIB2 workflows (xarray, cfgrib) extracting 2-year time series for 120,000 locations; resolved
+5.4M missing geolocations via KDTree spatial enrichment (95% coverage).
+– Developing probabilistic feed-in models fusing meteorological ensembles with grid topology data to quantify generation un-
+certainty across Germany.
+Research: Preventing Privacy Attacks in Federated Learning
+– Simulated membership inference attacks in federated learning environments using the Flower framework.
+– Implemented lightweight privacy-preserving defences (gradient clipping, differential privacy); achieved∼40% reduction in
+attack success rate with less than 2% drop in model accuracy.
+B.Tech Computer Engineering·Charotar University of Science and TechnologyJul 2019 – May 2023
+Programming Languages, Data Structures & Algorithms, Computational Theory
+ACHIEVEMENTS
+–Runners-up, Smart India Hackathon 2023: Developed a Project Sharing & Collaboration portal (ReactJS, NodeJS,
+Solidity); recognised at national level out of 10,000+ teams.
+–International Conference, University of Cambridge: Presented research on automating irrigation systems via real-time
+soil quality detection, focused on Sustainable Development Goals.
+---PAGE---

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Het Parekh — Data Scientist & Engineer</title>
+  <meta name="description"
+    content="Portfolio of Het Parekh, Data Scientist & Engineer — M.Sc. Data Science at TU Hamburg, specializing in ML systems, data pipelines, and renewable energy analytics.">
+  <meta name="author" content="Het Parekh">
+  <meta name="keywords" content="Data Scientist, Machine Learning, Python, Data Engineering, Hamburg, Portfolio">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="navbar">
+    <div class="nav-logo">het_parekh<span>.py</span></div>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">about()</a></li>
+      <li><a href="#skills">skills()</a></li>
+      <li><a href="#experience">experience()</a></li>
+      <li><a href="#education">education()</a></li>
+      <li><a href="#languages">languages()</a></li>
+      <li><a href="#achievements">achievements()</a></li>
+      <li><a href="#contact">contact()</a></li>
+    </ul>
+  </nav>
+
+  <!-- ========== NOTEBOOK ========== -->
+  <main class="notebook">
+
+    <!-- ===== CELL 1: HERO / IMPORT ===== -->
+    <section id="hero">
+      <div class="cell hero-cell">
+        <div class="cell-input">
+          <span class="cell-label">In [<span class="cell-num">1</span>]:</span>
+          <div class="cell-code" id="hero-code">
+            <div class="type-line"
+              data-content='<span class="keyword">import</span> <span class="function">het_parekh</span> <span class="keyword">as</span> <span class="variable">hp</span>'
+              style="visibility:hidden">
+              <span class="keyword">import</span> <span class="function">het_parekh</span> <span
+                class="keyword">as</span> <span class="variable">hp</span>
+            </div>
+            <div class="type-line" data-content='<span class="variable">hp</span>.<span class="method">init</span>()'
+              style="visibility:hidden">
+              <span class="variable">hp</span>.<span class="method">init</span>()
+            </div>
+          </div>
+        </div>
+        <div class="cell-output hero-output">
+          <div class="cell-output-label"><span class="dot"></span> loaded successfully</div>
+          <h1>Het <span class="accent">Parekh</span></h1>
+          <p class="subtitle">Data Scientist & Engineer</p>
+          <div class="hero-meta">
+            <span><span class="meta-icon">📍</span> Hamburg, Germany</span>
+            <a href="mailto:hetparekh16@gmail.com"><span class="meta-icon">✉</span> hetparekh16@gmail.com</a>
+            <a href="tel:+4915510527934"><span class="meta-icon">☏</span> +49 15510 527934</a>
+            <a href="https://linkedin.com/in/het-parekh" target="_blank"><span class="meta-icon">⌘</span>
+              linkedin.com/in/het-parekh</a>
+            <a href="https://github.com/hetparekh16" target="_blank"><span class="meta-icon">⚙</span>
+              github.com/hetparekh16</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CELL 2: ABOUT / SUMMARY ===== -->
+    <section id="about">
+      <div class="cell">
+        <div class="cell-input">
+          <span class="cell-label">In [<span class="cell-num">2</span>]:</span>
+          <div class="cell-code">
+            <span class="variable">hp</span>.<span class="method">describe</span>()
+          </div>
+        </div>
+        <div class="cell-output">
+          <div class="cell-output-label"><span class="dot"></span> Out [2]</div>
+          <p class="summary-text">
+            I build systems that turn raw, messy data into decisions that matter. Currently completing an
+            <strong>M.Sc. in Data Science at TU Hamburg</strong>, where my thesis fuses <strong>5.7M+ renewable energy
+              installation records</strong> with multi-terabyte weather datasets to model power grid uncertainty across
+            Germany — bridging geospatial engineering, probabilistic modelling, and large-scale data pipelines.
+            In production at <strong>TUI Cruises</strong>, I've shipped forecasting and dynamic pricing models that
+            process
+            millions of booking records daily, cut pipeline runtimes by ~30%, and raised test coverage to 80%+.
+            My toolkit spans <strong>Python, SQL, PyTorch, and MLOps</strong> — and I'm equally comfortable
+            writing a federated learning defence, optimising a DuckDB query, or presenting insights to non-technical
+            stakeholders in German (B2). <strong>Runner-up, Smart India Hackathon 2023</strong> out of 10,000+ teams.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CELL 3: SKILLS ===== -->
+    <section id="skills">
+      <div class="cell">
+        <div class="cell-input">
+          <span class="cell-label">In [<span class="cell-num">3</span>]:</span>
+          <div class="cell-code">
+            <span class="variable">hp</span>.<span class="method">skills</span>.<span class="method">show</span>(<span
+              class="string">"all"</span>)
+          </div>
+        </div>
+        <div class="cell-output">
+          <div class="cell-output-label"><span class="dot"></span> Out [3]</div>
+          <div class="skills-grid">
+
+            <!-- Programming -->
+            <div class="skill-category cat-programming">
+              <div class="skill-category-label"><span class="cat-dot"></span> Programming</div>
+              <div class="skill-chips">
+                <span class="skill-chip">Python</span>
+                <span class="skill-chip">SQL</span>
+                <span class="skill-chip">JavaScript</span>
+              </div>
+            </div>
+
+            <!-- Data Engineering -->
+            <div class="skill-category cat-data">
+              <div class="skill-category-label"><span class="cat-dot"></span> Data Engineering</div>
+              <div class="skill-chips">
+                <span class="skill-chip">NumPy</span>
+                <span class="skill-chip">Pandas</span>
+                <span class="skill-chip">xarray</span>
+                <span class="skill-chip">SciPy</span>
+                <span class="skill-chip">DuckDB</span>
+                <span class="skill-chip">Polars</span>
+                <span class="skill-chip">Parquet</span>
+                <span class="skill-chip">Apache Airflow</span>
+                <span class="skill-chip">dbt</span>
+                <span class="skill-chip">Streamlit</span>
+                <span class="skill-chip">FastAPI</span>
+                <span class="skill-chip">Plotly</span>
+                <span class="skill-chip">Matplotlib</span>
+              </div>
+            </div>
+
+            <!-- ML / AI -->
+            <div class="skill-category cat-ml">
+              <div class="skill-category-label"><span class="cat-dot"></span> ML / AI</div>
+              <div class="skill-chips">
+                <span class="skill-chip">scikit-learn</span>
+                <span class="skill-chip">PyTorch</span>
+                <span class="skill-chip">TensorFlow</span>
+                <span class="skill-chip">Keras</span>
+                <span class="skill-chip">LlamaIndex</span>
+                <span class="skill-chip">Hugging Face</span>
+                <span class="skill-chip">CrewAI</span>
+                <span class="skill-chip">Ollama</span>
+              </div>
+            </div>
+
+            <!-- MLOps & Tools -->
+            <div class="skill-category cat-mlops">
+              <div class="skill-category-label"><span class="cat-dot"></span> MLOps & Tools</div>
+              <div class="skill-chips">
+                <span class="skill-chip">Azure ML</span>
+                <span class="skill-chip">MLflow</span>
+                <span class="skill-chip">Docker</span>
+                <span class="skill-chip">Git</span>
+                <span class="skill-chip">CI/CD</span>
+                <span class="skill-chip">Power BI</span>
+                <span class="skill-chip">Pytest</span>
+                <span class="skill-chip">Pydantic</span>
+                <span class="skill-chip">Poetry</span>
+              </div>
+            </div>
+
+            <!-- Web -->
+            <div class="skill-category cat-web">
+              <div class="skill-category-label"><span class="cat-dot"></span> Web</div>
+              <div class="skill-chips">
+                <span class="skill-chip">ReactJS</span>
+                <span class="skill-chip">HTML</span>
+                <span class="skill-chip">CSS</span>
+                <span class="skill-chip">WordPress</span>
+                <span class="skill-chip">Shopify</span>
+              </div>
+            </div>
+
+            <!-- Domain -->
+            <div class="skill-category cat-domain">
+              <div class="skill-category-label"><span class="cat-dot"></span> Domain</div>
+              <div class="skill-chips">
+                <span class="skill-chip">Revenue Management</span>
+                <span class="skill-chip">Renewable Energy</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CELL 4: EXPERIENCE ===== -->
+    <section id="experience">
+      <div class="cell">
+        <div class="cell-input">
+          <span class="cell-label">In [<span class="cell-num">4</span>]:</span>
+          <div class="cell-code">
+            <span class="variable">hp</span>.<span class="method">experience</span>.<span
+              class="method">timeline</span>(<span class="builtin">sort</span>=<span class="string">"desc"</span>)
+          </div>
+        </div>
+        <div class="cell-output">
+          <div class="cell-output-label"><span class="dot"></span> Out [4]</div>
+          <div class="timeline">
+
+            <!-- TUI Cruises -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-header">
+                <span class="timeline-role">Working Student – Data Science</span>
+                <span class="timeline-company">TUI Cruises</span>
+                <div class="timeline-meta">
+                  <span>📍 Hamburg, DE</span>
+                  <span>Oct 2024 – Present</span>
+                </div>
+              </div>
+
+              <div class="timeline-project"># Revenue Management System (RMS)</div>
+              <ul class="timeline-points">
+                <li>Enhanced forecasting and optimisation modules for dynamic pricing, refactoring core pipeline logic
+                  to reduce model runtime by ~30%.</li>
+                <li>Maintained production-grade Python/SQL pipelines processing millions of booking records daily; built
+                  ETL workflows supporting downstream modules.</li>
+                <li>Contributed to CI/CD pipeline maintenance to streamline deployments and ensure model stability in
+                  production.</li>
+                <li>Designed automated unit test suites covering 80%+ of critical pipeline logic, significantly reducing
+                  regression bugs.</li>
+                <li>Conducted internal workshops and presented analytical insights to non-technical stakeholders.</li>
+              </ul>
+
+              <div class="timeline-project"># Ship Energy Analytics (SEA)</div>
+              <ul class="timeline-points">
+                <li>Co-developed predictive models forecasting fuel consumption across transit and port phases,
+                  contributing to fuel efficiency analysis across the fleet.</li>
+                <li>Supported design and implementation of scalable data pipelines and infrastructure for production
+                  readiness.</li>
+                <li>Collaborated with senior data scientists and mentored interns on Python, SQL, and version control.
+                </li>
+              </ul>
+            </div>
+
+            <!-- Quantum IT Innovation -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-header">
+                <span class="timeline-role">Web Developer</span>
+                <span class="timeline-company">Quantum IT Innovation</span>
+                <div class="timeline-meta">
+                  <span>📍 Delhi, IN</span>
+                  <span>Feb 2023 – Sep 2023</span>
+                </div>
+              </div>
+              <ul class="timeline-points">
+                <li>Designed and integrated RESTful APIs with complex data schemas, building experience in structured
+                  data exchange and backend communication patterns directly applicable to data pipeline engineering.
+                </li>
+                <li>Migrated legacy codebases to component-based React/TypeScript architectures, developing strong
+                  software engineering practices (modularity, type safety, testing) now applied in ML systems.</li>
+              </ul>
+            </div>
+
+            <!-- Team Elementals -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-header">
+                <span class="timeline-role">Web Developer</span>
+                <span class="timeline-company">Team Elementals LLP</span>
+                <div class="timeline-meta">
+                  <span>📍 Gujarat, IN</span>
+                  <span>May 2022 – Dec 2022</span>
+                </div>
+              </div>
+              <ul class="timeline-points">
+                <li>Developed dynamic Single Page Applications (SPAs) using ReactJS, ensuring seamless integration with
+                  backend RESTful endpoints.</li>
+                <li>Collaborated cross-functionally to define API contracts and data schemas, ensuring robust error
+                  handling and smooth data synchronization between front-end and back-end.</li>
+                <li>Optimized application performance by implementing efficient state management patterns and minimizing
+                  re-renders in complex interactive views.</li>
+              </ul>
+            </div>
+
+            <!-- Arkit Global -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-header">
+                <span class="timeline-role">Web Developer</span>
+                <span class="timeline-company">Arkit Global Inc.</span>
+                <div class="timeline-meta">
+                  <span>📍 Tokyo, JP</span>
+                  <span>May 2021 – Dec 2021</span>
+                </div>
+              </div>
+              <ul class="timeline-points">
+                <li>Deployed interactive web pages using ReactJS, optimizing user experience and driving a 40% increase
+                  in client website engagement within the first month.</li>
+                <li>Collaborated seamlessly with backend teams to ensure responsive designs and API integrations,
+                  resulting in a 25% decrease in website loading times.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CELL 5: EDUCATION ===== -->
+    <section id="education">
+      <div class="cell">
+        <div class="cell-input">
+          <span class="cell-label">In [<span class="cell-num">5</span>]:</span>
+          <div class="cell-code">
+            <span class="variable">hp</span>.<span class="method">education</span>.<span
+              class="method">query</span>(<span class="string">"all"</span>)
+          </div>
+        </div>
+        <div class="cell-output">
+          <div class="cell-output-label"><span class="dot"></span> Out [5]</div>
+
+          <!-- M.Sc. -->
+          <div class="edu-card">
+            <div class="edu-degree">M.Sc. Data Science</div>
+            <div class="edu-school">Technische Universität Hamburg</div>
+            <div class="edu-date">Sept 2023 – Apr 2026</div>
+
+            <div class="edu-section-title"># Coursework</div>
+            <div class="edu-tags">
+              <span class="edu-tag">Machine Learning</span>
+              <span class="edu-tag">Deep Learning</span>
+              <span class="edu-tag">Big Data Analytics</span>
+              <span class="edu-tag">Statistical Learning</span>
+              <span class="edu-tag">Data Engineering</span>
+            </div>
+
+            <div class="edu-section-title"># Thesis: Heterogeneous Data Fusion for Power Grid Transformation Analysis
+            </div>
+            <p class="edu-detail">Architected a scalable data pipeline (Python, DuckDB, Polars) integrating 5.7M+
+              renewable energy installations (MaStR) with multi-TB historical weather datasets.</p>
+            <p class="edu-detail">Engineered high-performance GRIB2 workflows (xarray, cfgrib) extracting 2-year time
+              series for 120,000 locations; resolved 5.4M missing geolocations via KDTree spatial enrichment (95%
+              coverage).</p>
+            <p class="edu-detail">Developing probabilistic feed-in models fusing meteorological ensembles with grid
+              topology data to quantify generation uncertainty across Germany.</p>
+
+            <div class="edu-section-title"># Research: Preventing Privacy Attacks in Federated Learning</div>
+            <p class="edu-detail">Simulated membership inference attacks in federated learning environments using the
+              Flower framework.</p>
+            <p class="edu-detail">Implemented lightweight privacy-preserving defences (gradient clipping, differential
+              privacy); achieved ~40% reduction in attack success rate with less than 2% drop in model accuracy.</p>
+          </div>
+
+          <!-- B.Tech -->
+          <div class="edu-card">
+            <div class="edu-degree">B.Tech Computer Engineering</div>
+            <div class="edu-school">Charotar University of Science and Technology</div>
+            <div class="edu-date">Jul 2019 – May 2023</div>
+
+            <div class="edu-section-title"># Focus Areas</div>
+            <div class="edu-tags">
+              <span class="edu-tag">Programming Languages</span>
+              <span class="edu-tag">Data Structures & Algorithms</span>
+              <span class="edu-tag">Computational Theory</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CELL 6: LANGUAGES ===== -->
+    <section id="languages">
+      <div class="cell">
+        <div class="cell-input">
+          <span class="cell-label">In [<span class="cell-num">6</span>]:</span>
+          <div class="cell-code">
+            <span class="variable">hp</span>.<span class="method">languages</span>.<span
+              class="method">proficiency</span>()
+          </div>
+        </div>
+        <div class="cell-output">
+          <div class="cell-output-label"><span class="dot"></span> Out [6]</div>
+          <div class="lang-grid">
+            <div class="lang-item">
+              <span class="lang-name">German</span>
+              <span class="lang-level">Intermediate (B2)</span>
+              <div class="lang-bar-track">
+                <div class="lang-bar-fill" style="--proficiency: 60%"></div>
+              </div>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name">English</span>
+              <span class="lang-level">Fluent (C1)</span>
+              <div class="lang-bar-track">
+                <div class="lang-bar-fill" style="--proficiency: 90%"></div>
+              </div>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name">Hindi</span>
+              <span class="lang-level">Fluent</span>
+              <div class="lang-bar-track">
+                <div class="lang-bar-fill" style="--proficiency: 95%"></div>
+              </div>
+            </div>
+            <div class="lang-item">
+              <span class="lang-name">Gujarati</span>
+              <span class="lang-level">Mother Tongue</span>
+              <div class="lang-bar-track">
+                <div class="lang-bar-fill" style="--proficiency: 100%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CELL 7: ACHIEVEMENTS ===== -->
+    <section id="achievements">
+      <div class="cell">
+        <div class="cell-input">
+          <span class="cell-label">In [<span class="cell-num">7</span>]:</span>
+          <div class="cell-code">
+            <span class="variable">hp</span>.<span class="method">achievements</span>.<span
+              class="method">highlight</span>()
+          </div>
+        </div>
+        <div class="cell-output">
+          <div class="cell-output-label"><span class="dot"></span> Out [7]</div>
+          <div class="achievements-grid">
+            <div class="achievement-card">
+              <div class="achievement-icon">🏆</div>
+              <div class="achievement-title">Runners-up, Smart India Hackathon 2023</div>
+              <p class="achievement-desc">Developed a Project Sharing & Collaboration portal (ReactJS, NodeJS,
+                Solidity); recognised at national level out of 10,000+ teams.</p>
+            </div>
+            <div class="achievement-card">
+              <div class="achievement-icon">🎓</div>
+              <div class="achievement-title">International Conference, University of Cambridge</div>
+              <p class="achievement-desc">Presented research on automating irrigation systems via real-time soil quality
+                detection, focused on Sustainable Development Goals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CELL 8: CONTACT / FOOTER ===== -->
+    <section id="contact">
+      <div class="cell footer-cell">
+        <div class="cell-input">
+          <span class="cell-label">In [<span class="cell-num">8</span>]:</span>
+          <div class="cell-code">
+            <span class="variable">hp</span>.<span class="method">contact</span>()
+          </div>
+        </div>
+        <div class="cell-output">
+          <div class="cell-output-label"><span class="dot"></span> Out [8]</div>
+          <div class="contact-terminal">
+            <div><span class="prompt">>>> </span><span class="output-line">email : </span><a
+                href="mailto:hetparekh16@gmail.com">hetparekh16@gmail.com</a></div>
+            <div><span class="prompt">>>> </span><span class="output-line">phone : </span><a
+                href="tel:+4915510527934">+49 15510 527 934</a></div>
+            <div><span class="prompt">>>> </span><span class="output-line">github : </span><a
+                href="https://github.com/hetparekh16" target="_blank">github.com/hetparekh16</a></div>
+            <div><span class="prompt">>>> </span><span class="output-line">linkedin: </span><a
+                href="https://linkedin.com/in/het-parekh" target="_blank">linkedin.com/in/het-parekh</a></div>
+            <div><span class="prompt">>>> </span><span class="output-line">location: </span>Hamburg, Germany</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="footer-note">© 2026 Het Parekh · Built as a data notebook · Rendered in the browser</p>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
