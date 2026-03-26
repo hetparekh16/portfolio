@@ -295,6 +295,11 @@ body::before {
   50% { opacity: 0; }
 }
 
+/* Hero cell has a JS-injected cursor — suppress the CSS one */
+#hero-code::after {
+  display: none;
+}
+
 .cell-code .keyword {
   color: var(--accent-purple);
 }
