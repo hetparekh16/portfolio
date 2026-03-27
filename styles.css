@@ -794,14 +794,14 @@ body::before {
   font-family: var(--font-mono);
   font-size: 0.92rem;
   color: var(--text-primary);
-  min-width: 110px;
+  width: 110px;
 }
 
 .lang-level {
   font-family: var(--font-mono);
   font-size: 0.82rem;
   color: var(--text-muted);
-  min-width: 90px;
+  width: 160px;
 }
 
 .lang-bar-track {
@@ -998,10 +998,12 @@ body::before {
 
   .lang-name {
     min-width: 80px;
+    width: auto;
   }
 
   .lang-level {
     min-width: auto;
+    width: auto;
   }
 
   .lang-bar-track {
