@@ -147,6 +147,7 @@ body::before {
   color: var(--accent-teal);
   font-weight: 600;
   letter-spacing: -0.02em;
+  text-decoration: none;
 }
 
 .nav-logo span {
